@@ -1,6 +1,6 @@
 {
 	"name": "tealight",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Helpful utils for DOM libraries",
 	"main": "dist/tealight.js",
 	"module": "dist/tealight.es.js",
