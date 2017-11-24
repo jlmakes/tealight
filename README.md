@@ -10,7 +10,7 @@
 	<a href="https://coveralls.io/github/jlmakes/tealight"><img src="https://img.shields.io/coveralls/jlmakes/tealight.svg" alt="Coverage"></a>
 	<a href="https://www.npmjs.com/package/tealight"><img src="https://img.shields.io/npm/v/tealight.svg" alt="Version"></a>
 	<a href="https://github.com/jlmakes/tealight/blob/master/src/index.js"><img src="https://img.shields.io/badge/min+gzip-1.4KB-blue.svg" alt="1.4KB min+gzip"></a>
-	<a href="https://github.com/jlmakes/tealight/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-dd4d84.svg" alt="MIT License"></a>
+	<a href="https://github.com/jlmakes/tealight/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
 </p>
 
 <p align="center">
