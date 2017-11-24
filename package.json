@@ -41,6 +41,6 @@
 		"sinon": "^4.0.2",
 		"sinon-chai": "^2.8.0"
 	},
-	"author": "Julian Lloyd",
+	"author": "Julian Lloyd <tealight@jlmak.es>",
 	"license": "MIT"
 }
