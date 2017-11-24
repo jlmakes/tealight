@@ -17,6 +17,7 @@
 		"testing": "cross-env COVERAGE=true npm test -- --no-single-run",
 		"coverage": "cross-env COVERAGE=true npm test"
 	},
+	"repository": "jlmakes/tealight",
 	"devDependencies": {
 		"chai": "^4.1.2",
 		"cross-env": "^5.1.1",
