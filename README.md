@@ -1,4 +1,3 @@
-
 <p align="center">
 	<img src="https://jlmak.es/logos/svg/tealight.svg" alt="Tealight" width="120">
 </p>
@@ -14,5 +13,5 @@
 </p>
 
 <p align="center">
-	Copyright 2017 Fisssion LLC.
+	Copyright 2018 Fisssion LLC.
 </p>
