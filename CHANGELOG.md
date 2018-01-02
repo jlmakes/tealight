@@ -1,5 +1,11 @@
 # Change Log
 
+## Unreleased
+
+### Removed
+
+* `requestAnimationFrame` and `Math.sign` polyfills have been removed.
+
 ## [0.1.2] - 2017-12-04
 
 * Update distribution license format.
