@@ -2,11 +2,15 @@
 
 ## Unreleased
 
+### Changed
+
+* The `getNodes` utility has been renamed to `index`, and is now exported by default.
+
 ### Removed
 
-* `requestAnimationFrame` and `Math.sign` polyfills have been removed.
-* The `deepAssign` utility and its dependencies have been removed.
-* The `getNode` utility has been removed.
+* `raf` and `mathSign` polyfills were removed.
+* The `isNode` and `isNodeList` named exports were removed.
+* The `deepAssign`, `each`, `getNode` and `isObject` utilities were removed.
 
 ## [0.1.2] - 2017-12-04
 

@@ -1,6 +1,17 @@
-import getNode from './utils/get-node'
-import getNodes from './utils/get-nodes'
-import isNodeList from './utils/is-node-list'
 import isNode from './utils/is-node'
+import isNodeList from './utils/is-node-list'
 
-export { getNode, getNodes, isNodeList, isNode }
+export default function index(target) {
+	if (target instanceof Array) return target.filter(isNode)
+	if (isNode(target)) return [target]
+	if (isNodeList(target)) return Array.prototype.slice.call(target)
+	if (typeof target === 'string') {
+		try {
+			const query = document.querySelectorAll(target)
+			return Array.prototype.slice.call(query)
+		} catch (err) {
+			return []
+		}
+	}
+	return []
+}
