@@ -5,6 +5,7 @@
 ### Removed
 
 * `requestAnimationFrame` and `Math.sign` polyfills have been removed.
+* The `deepAssign` utility (and its dependencies) have been removed.
 
 ## [0.1.2] - 2017-12-04
 
