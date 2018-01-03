@@ -28,7 +28,7 @@ module.exports = karma => {
 		rollupPreprocessor: {
 			plugins: rollupPlugins,
 			format: 'iife',
-			name: 'Tealight',
+			name: 'tealight',
 			sourcemap: 'inline'
 		},
 

@@ -8,7 +8,7 @@ export default {
 	input: './src/index.js',
 	plugins: [json(), nodeResolve({ jsnext: true, main: true }), buble()],
 	output: [
-		{ format: 'umd', file: 'dist/tealight.js', name: 'Tealight' },
+		{ format: 'umd', file: 'dist/tealight.js', name: 'tealight' },
 		{ format: 'es', file: 'dist/tealight.es.js' }
 	]
 }
