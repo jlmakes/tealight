@@ -1,6 +1,8 @@
 const { version } = require('../package.json')
 
-const banner = `/*! @license Tealight v${version}
+export const condensed = `/*! @license Tealight v${version} (MIT) Copyright 2018 Fisssion LLC. */`
+
+export const standard = `/*! @license Tealight v${version}
 
 Copyright 2018 Fisssion LLC.
 
@@ -23,5 +25,3 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 */`
-
-export default banner

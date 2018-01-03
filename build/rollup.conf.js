@@ -1,7 +1,7 @@
 import buble from 'rollup-plugin-buble'
 import json from 'rollup-plugin-json'
 import nodeResolve from 'rollup-plugin-node-resolve'
-import banner from './rollup.conf.banner'
+import { standard as banner } from './rollup.conf.banner'
 
 export default {
 	banner,
