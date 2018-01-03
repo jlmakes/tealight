@@ -4,3 +4,5 @@ node_js:
   - '9'
 addons:
   chrome: stable
+after_success:
+  - npm run coverage
