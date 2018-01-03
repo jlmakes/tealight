@@ -5,6 +5,7 @@
 ### Changed
 
 * The `getNodes` utility has been renamed to `index`, and is now exported by default.
+* Minified distribution now uses a condensed license format.
 
 ### Removed
 
