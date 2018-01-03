@@ -2,7 +2,7 @@
 	<img src="https://jlmak.es/logos/svg/tealight.svg" alt="Tealight" width="120">
 </p>
 
-<p align="center">Helpful utils for DOM libraries.</p>
+<p align="center">The smallest query library.</p>
 
 <p align="center">
 	<a href="https://travis-ci.org/jlmakes/tealight"><img src="https://img.shields.io/travis/jlmakes/tealight.svg" alt="Build status"></a>

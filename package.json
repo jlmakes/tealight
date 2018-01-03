@@ -1,7 +1,7 @@
 {
 	"name": "tealight",
 	"version": "0.1.2",
-	"description": "Helpful utils for DOM libraries",
+	"description": "The smallest query library.",
 	"main": "dist/tealight.js",
 	"module": "dist/tealight.es.js",
 	"jsnext:main": "dist/tealight.es.js",
@@ -18,7 +18,7 @@
 		"coverage": "cross-env COVERAGE=true npm test"
 	},
 	"repository": "jlmakes/tealight",
-	"keywords": ["utility", "helper", "DOM"],
+	"keywords": ["html", "dom", "element", "utility", "query", "selector"],
 	"devDependencies": {
 		"chai": "^4.1.2",
 		"cross-env": "^5.1.1",
