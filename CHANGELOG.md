@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Added
+
+* Tealight now supports a second `context` argument to scope DOM selectors.
+
 ### Changed
 
 * The `getNodes` utility has been renamed to `index`, and is now exported by default.

@@ -48,4 +48,11 @@ describe('/', () => {
 			expect(result).to.deep.equal([])
 		})
 	})
+
+	describe('index(target, context)', () => {
+		it('— should exclude all results not found within the context element', () => {
+			const result = Tealight('html', document.body)
+			expect(result).to.deep.equal([])
+		})
+	})
 })
