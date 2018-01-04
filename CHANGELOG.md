@@ -1,6 +1,6 @@
 # Change Log
 
-## Unreleased
+## [0.2.0] - 2018-01-04
 
 ### Added
 
@@ -32,6 +32,7 @@
 
 Hello world!
 
+[0.2.0]: https://github.com/jlmakes/tealight/compare/0.1.2...0.2.0
 [0.1.2]: https://github.com/jlmakes/tealight/compare/0.1.1...0.1.2
 [0.1.1]: https://github.com/jlmakes/tealight/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/jlmakes/tealight/tree/0.1.0
