@@ -1,8 +1,8 @@
 <p align="center">
-	<img src="https://jlmak.es/logos/svg/tealight.svg" alt="Tealight" width="120">
+	<img src="https://jlmak.es/logos/svg/tealight.svg" alt="Tealight" width="120px">
 </p>
 <h1 align="center">Tealight</h1>
-<p align="center">The smallest query library.</p>
+<p align="center">Enhanced query selector API.</p>
 
 <p align="center">
 	<a href="https://travis-ci.org/jlmakes/tealight"><img src="https://img.shields.io/travis/jlmakes/tealight.svg" alt="Build status"></a>
@@ -14,10 +14,42 @@
 
 <p align="center">
 	<a href="https://saucelabs.com/u/tealight">
-		<img src="https://saucelabs.com/browser-matrix/tealight.svg" alt="Browser compatibility matrix">
+		<img src="https://saucelabs.com/browser-matrix/tealight.svg" alt="Browser compatibility matrix" width="100%">
 	</a>
 </p>
 
-<p align="center">
-	Copyright 2018 Fisssion LLC.
-</p>
+<br>
+
+<br>
+
+# Installation
+
+## Browser
+
+A simple and fast way to get started is to include this script on your page:
+
+```html
+<script src="https://unpkg.com/tealight"></script>
+```
+
+This will create the global variable `tealight`.
+
+> If you use this method in production, be sure to specify a fixed version number, and use the minified distribution; e.g: `https://unpkg.com/tealight@1.0.0/dist/tealight.min.js`. This improves performance, but also prevents library changes from impacting your project.
+
+## Module
+
+```bash
+npm install tealight
+```
+
+#### CommonJS
+
+```js
+const tealight = require('tealight')
+```
+
+#### ES2015
+
+```js
+import tealight from 'tealight'
+```
