@@ -1,7 +1,7 @@
 {
 	"name": "tealight",
 	"version": "0.1.2",
-	"description": "The smallest query library.",
+	"description": "Enhanced query selector API",
 	"main": "dist/tealight.js",
 	"module": "dist/tealight.es.js",
 	"jsnext:main": "dist/tealight.es.js",
