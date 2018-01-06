@@ -5,7 +5,9 @@
 	"main": "dist/tealight.js",
 	"module": "dist/tealight.es.js",
 	"jsnext:main": "dist/tealight.es.js",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"prebuild": "rm -rf dist/*",
 		"build": "npm run bundle && npm run bundle:min",
@@ -18,7 +20,14 @@
 		"coverage": "cross-env COVERAGE=true npm test"
 	},
 	"repository": "jlmakes/tealight",
-	"keywords": ["html", "dom", "element", "utility", "query", "selector"],
+	"keywords": [
+		"html",
+		"dom",
+		"element",
+		"utility",
+		"query",
+		"selector"
+	],
 	"devDependencies": {
 		"chai": "^4.1.2",
 		"cross-env": "^5.1.1",
@@ -44,5 +53,9 @@
 		"sinon-chai": "^2.8.0"
 	},
 	"author": "Julian Lloyd <tealight@jlmak.es>",
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"is-dom-node": "^1.0.1",
+		"is-dom-node-list": "^1.0.0"
+	}
 }
