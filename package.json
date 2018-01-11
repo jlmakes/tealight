@@ -20,8 +20,8 @@
 	"repository": "jlmakes/tealight",
 	"keywords": ["html", "dom", "element", "utility", "query", "selector"],
 	"dependencies": {
-		"is-dom-node": "1.0.2",
-		"is-dom-node-list": "1.1.0"
+		"is-dom-node": "^1.0.4",
+		"is-dom-node-list": "^1.2.1"
 	},
 	"devDependencies": {
 		"chai": "^4.1.2",

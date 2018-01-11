@@ -1,5 +1,16 @@
 # Change Log
 
+## Unreleased
+
+### Changed
+
+* Upgraded `is-dom-node` dependency.
+* Upgraded `is-dom-node-list` dependency.
+
+### Fixed
+
+* Upgrades removed duplicate `is-dom-node` code.
+
 ## [0.2.2] - 2018-01-11
 
 * Upgrade `is-dom-node-list` dependency.
