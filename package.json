@@ -1,6 +1,6 @@
 {
 	"name": "tealight",
-	"version": "0.2.2",
+	"version": "0.2.3",
 	"description": "Enhanced query selector API",
 	"main": "dist/tealight.js",
 	"module": "dist/tealight.es.js",
