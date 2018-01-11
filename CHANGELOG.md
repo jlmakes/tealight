@@ -1,5 +1,9 @@
 # Change Log
 
+## Unreleased
+
+* Upgrade `is-dom-node-list` dependency.
+
 ## [0.2.1] - 2018-01-05
 
 ### Changed
