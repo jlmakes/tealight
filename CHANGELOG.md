@@ -1,5 +1,11 @@
 # Change Log
 
+## Unreleased
+
+### Changed
+
+* Refactor ES module distribution with exteral dependencies.
+
 ## [0.2.3] - 2018-01-11
 
 ### Changed
