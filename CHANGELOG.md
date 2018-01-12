@@ -5,6 +5,7 @@
 ### Changed
 
 * Refactor ES module distribution with exteral dependencies.
+* Add usage instructions to readme.
 
 ## [0.2.3] - 2018-01-11
 
