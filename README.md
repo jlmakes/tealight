@@ -9,7 +9,7 @@
 <a href="https://github.com/jlmakes/tealight/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License" height="24px"></a>
 
 <p align="center">
-	<a href="https://saucelabs.com/u/tealight"I’m creating a sustainable space to take on digital product startups>
+	<a href="https://saucelabs.com/u/tealight">
 		<img src="https://saucelabs.com/browser-matrix/tealight.svg" alt="Browser compatibility matrix" width="100%">
 	</a>
 </p>
