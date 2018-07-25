@@ -1,11 +1,13 @@
 {
 	"name": "tealight",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"description": "Enhanced query selector API",
 	"main": "dist/tealight.js",
 	"module": "dist/tealight.es.js",
 	"jsnext:main": "dist/tealight.es.js",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"prebuild": "rm -rf dist/*",
 		"build": "npm run bundle && npm run bundle:min",
@@ -18,7 +20,14 @@
 		"coverage": "cross-env COVERAGE=true npm test"
 	},
 	"repository": "jlmakes/tealight",
-	"keywords": ["html", "dom", "element", "utility", "query", "selector"],
+	"keywords": [
+		"html",
+		"dom",
+		"element",
+		"utility",
+		"query",
+		"selector"
+	],
 	"dependencies": {
 		"is-dom-node": "^1.0.4",
 		"is-dom-node-list": "^1.2.1"
