@@ -128,8 +128,6 @@ tealight(array)
 // => [ <div#jar> ]
 ```
 
-> Even though `.cookie` is a valid selector that _could_ match elements in our DOM, it is pruned from the source node array just like any other foreign types (i.e. `null` in this case as well); no matter what is implied, **if it's not a `Node`, it will be removed.**
-
 <br>
 
 <br>
