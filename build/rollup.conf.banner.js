@@ -1,6 +1,6 @@
-const { version } = require('../package.json')
+const { version } = require("../package.json");
 
-export const condensed = `/*! @license Tealight v${version} (MIT) Copyright 2018 Fisssion LLC. */`
+export const condensed = `/*! @license Tealight v${version} (MIT) Copyright 2018 Fisssion LLC. */`;
 
 export const standard = `/*! @license Tealight v${version}
 
@@ -24,4 +24,4 @@ export const standard = `/*! @license Tealight v${version}
 	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 	SOFTWARE.
 
-*/`
+*/`;

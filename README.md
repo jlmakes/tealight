@@ -39,13 +39,13 @@ $ npm install tealight
 #### CommonJS
 
 ```js
-const tealight = require('tealight')
+const tealight = require("tealight");
 ```
 
 #### ES2015
 
 ```js
-import tealight from 'tealight'
+import tealight from "tealight";
 ```
 
 <br>
@@ -77,12 +77,12 @@ For the examples below, assume we have this HTML fragment to query against:
 `String` arguments will be used as DOM query selectors.
 
 ```js
-tealight('#jar')
+tealight("#jar");
 // => [ <div#jar> ]
 ```
 
 ```js
-tealight('.cookie')
+tealight(".cookie");
 // => [ <div.chocolate-chip.cookie>, <div.peanut-butter.cookie>, <div.short-bread.cookie> ]
 ```
 
@@ -95,9 +95,9 @@ tealight('.cookie')
 `Node` arguments will be wrapped in an `Array`.
 
 ```js
-const node = document.querySelector('#jar')
+const node = document.querySelector("#jar");
 
-tealight(node)
+tealight(node);
 // => [ <div#jar> ]
 ```
 
@@ -108,9 +108,9 @@ tealight(node)
 `NodeList` arguments will be converted to `Array`.
 
 ```js
-const nodeList = document.querySelectorAll('.cookie')
+const nodeList = document.querySelectorAll(".cookie");
 
-tealight(nodeList)
+tealight(nodeList);
 // => [ <div.chocolate-chip.cookie>, <div.peanut-butter.cookie>, <div.short-bread.cookie> ]
 ```
 
@@ -121,10 +121,10 @@ tealight(nodeList)
 `Array` arguments will be filtered, leaving only `Node` items.
 
 ```js
-const node = document.querySelector('#jar')
-const array = [node, null, '.cookie']
+const node = document.querySelector("#jar");
+const array = [node, null, ".cookie"];
 
-tealight(array)
+tealight(array);
 // => [ <div#jar> ]
 ```
 
