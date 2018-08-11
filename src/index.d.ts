@@ -4,20 +4,20 @@ export = tealight;
 
 declare function tealight(
   target: Array<any>,
-  context: HTMLElement
+  context?: HTMLElement
 ): Array<HTMLElement>;
 
 declare function tealight(
   target: string,
-  context: HTMLElement
+  context?: HTMLElement
 ): Array<HTMLElement>;
 
 declare function tealight(
   target: HTMLElement,
-  context: HTMLElement
+  context?: HTMLElement
 ): Array<HTMLElement>;
 
 declare function tealight(
   target: HTMLCollection,
-  context: HTMLElement
+  context?: HTMLElement
 ): Array<HTMLElement>;
