@@ -1,18 +1,62 @@
-# tealight
+<p align="center">
+	<img src="https://jlmak.es/logos/svg/tealight.svg" alt="Flaming tea light" width="120px">
+</p>
+<br>
+<p align="center">
+	<img src="https://jlmak.es/logos/svg/tealight-logotype.svg" alt="Tealight" width="130px">
+</p>
 
-> ES2015 module for DOM queries.
+<p align="center">DOM queries that always return an array.</p>
 
-<a href="https://travis-ci.org/jlmakes/tealight"><img src="https://img.shields.io/travis/jlmakes/tealight.svg" alt="Build status" height="24px"></a>
-<a href="https://coveralls.io/github/jlmakes/tealight"><img src="https://img.shields.io/coveralls/jlmakes/tealight.svg" alt="Coverage" height="24px"></a>
-<a href="https://www.npmjs.com/package/tealight"><img src="https://img.shields.io/npm/v/tealight.svg" alt="Version" height="24px"></a>
-<a href="https://github.com/jlmakes/tealight/blob/master/src/index.js"><img src="https://img.shields.io/badge/min+gzip-0.4KB-blue.svg" alt="0.4KB min+gzip" height="24px"></a>
-<a href="https://github.com/jlmakes/tealight/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License" height="24px"></a>
+<p align="center">
+	<a href="https://travis-ci.org/jlmakes/tealight"><img src="https://img.shields.io/travis/jlmakes/tealight.svg" alt="Build status"></a>
+	<a href="https://coveralls.io/github/jlmakes/tealight"><img src="https://img.shields.io/coveralls/jlmakes/tealight.svg" alt="Coverage"></a>
+	<a href="https://www.npmjs.com/package/tealight"><img src="https://img.shields.io/npm/v/tealight.svg" alt="Version"></a>
+	<a href="https://github.com/jlmakes/tealight/blob/master/src/index.js"><img src="https://img.shields.io/badge/min+gzip-0.4KB-blue.svg" alt="0.4KB min+gzip"></a>
+	<a href="https://github.com/jlmakes/tealight/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
+</p>
 
 <p align="center">
 	<a href="https://saucelabs.com/u/tealight">
 		<img src="https://saucelabs.com/browser-matrix/tealight.svg" alt="Browser compatibility matrix" width="100%">
 	</a>
 </p>
+
+<br>
+
+<br>
+
+## Introduction
+
+Modern browsers enable us to perform DOM queries natively, e.g:
+
+```js
+let cookies = document.querySelectorAll(".cookie");
+```
+
+But we all want to look over the returned elements. So in practice, we’ve got to do a little more work, particularly converting the resulting `NodeList` to an array, e.g:
+
+```js
+let cookies;
+try {
+  let query = document.querySelectorAll(".cookie");
+  cookies = Array.prototype.slice.call(query);
+} catch (err) {
+  console.error(err.message);
+}
+
+cookies.forEach(cookie => {
+  // ...
+});
+```
+
+**Tealight** provides a familiar API to perform native queries, without the extra work.
+
+```js
+tealight(".cookie").forEach(cookie => {
+  // ...
+});
+```
 
 <br>
 
@@ -54,13 +98,9 @@ import tealight from "tealight";
 
 ## Usage
 
-`tealight` accepts a single argument, `target`, and will **always return an array of 0 or more DOM nodes**.
+`tealight` accepts a single argument `target` and will **always return an array of 0 or more DOM nodes**.
 
-```jsx
-tealight(target) => Array<Node>
-```
-
-For the examples below, assume we have this HTML fragment to query against:
+For the examples below, we will query against this HTML fragment:
 
 ```html
 <div id="jar">
@@ -72,9 +112,9 @@ For the examples below, assume we have this HTML fragment to query against:
 
 <br>
 
-### `tealight(String<Selector>)`
+### `tealight(target: string): Array<HTMLElement>`
 
-`String` arguments will be used as DOM query selectors.
+`string` targets will be used as CSS selectors.
 
 ```js
 tealight("#jar");
@@ -86,13 +126,11 @@ tealight(".cookie");
 // => [ <div.chocolate-chip.cookie>, <div.peanut-butter.cookie>, <div.short-bread.cookie> ]
 ```
 
-> Keep in mind that `document.querySelectorAll` throws an error when passed an invalid selector (requiring a try/catch block), whereas `tealight` will swallow the error and return an empty array.
-
 <br>
 
-### `tealight(Node)`
+### `tealight(target: HTMLElement): Array<HTMLElement>`
 
-`Node` arguments will be wrapped in an `Array`.
+`HTMLElement` targets will simply be wrapped in an `Array`
 
 ```js
 const node = document.querySelector("#jar");
@@ -103,9 +141,9 @@ tealight(node);
 
 <br>
 
-### `tealight(NodeList)`
+### `tealight(target: HTMLCollection) : Array<HTMLElement>`
 
-`NodeList` arguments will be converted to `Array`.
+`HTMLCollection` arguments will be converted to `Array`.
 
 ```js
 const nodeList = document.querySelectorAll(".cookie");
@@ -116,13 +154,13 @@ tealight(nodeList);
 
 <br>
 
-### `tealight(Array)`
+### `tealight(target: Array<any>): Array<HTMLElement>`
 
-`Array` arguments will be filtered, leaving only `Node` items.
+`Array` targets will be filtered, leaving only `HTMLElement`
 
 ```js
-const node = document.querySelector("#jar");
-const array = [node, null, ".cookie"];
+let node = document.querySelector("#jar");
+let array = [node, null, ".cookie"];
 
 tealight(array);
 // => [ <div#jar> ]
@@ -132,6 +170,8 @@ tealight(array);
 
 <br>
 
-© 2018 FISSSION, LLC.
+---
+
+Copyright 2018 Fisssion LLC.
 <br>
 Open source under the [MIT License](https://github.com/jlmakes/tealight/blob/master/LICENSE).
