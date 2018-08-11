@@ -1,10 +1,16 @@
 # Change Log
 
+## [0.3.3] - 2018-08-10
+
+### Fixed
+
+- Typo in type definition file path.
+
 ## [0.3.2] - 2018-08-10
 
 ### Added
 
-- Add [module function] type definition.
+- Add module function type definition.
 
 ## [0.3.1] - 2018-07-25
 
@@ -72,6 +78,8 @@
 
 Hello world!
 
+[0.3.3]: https://github.com/jlmakes/tealight/compare/0.3.2...0.3.3
+[0.3.2]: https://github.com/jlmakes/tealight/compare/0.3.1...0.3.2
 [0.3.1]: https://github.com/jlmakes/tealight/compare/0.3.0...0.3.1
 [0.3.0]: https://github.com/jlmakes/tealight/compare/0.2.3...0.3.0
 [0.2.3]: https://github.com/jlmakes/tealight/compare/0.2.2...0.2.3
