@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.3.6] - 2018-08-11
+
+### Fixed
+
+- Consolidate overloaded declarations.
+
 ## [0.3.5] - 2018-08-11
 
 ### Fixed
