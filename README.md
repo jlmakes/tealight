@@ -34,7 +34,7 @@ Modern browsers enable us to perform DOM queries natively, e.g:
 let cookies = document.querySelectorAll(".cookie");
 ```
 
-But we all want to look over the returned elements. So in practice, we’ve got to do a little more work, particularly converting the resulting `NodeList` to an array, e.g:
+But we all want to loop over the returned elements. So in practice, we’ve got to do a little more work, particularly converting the resulting `NodeList` to an array, e.g:
 
 ```js
 let cookies;
