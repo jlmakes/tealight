@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.3.2] - 2018-08-10
+
+### Added
+
+- Add [module function] type definition.
+
 ## [0.3.1] - 2018-07-25
 
 ### Changed
