@@ -1,16 +1,26 @@
 # Change Log
 
+## [0.3.4] - 2018-08-10
+
+### Changed
+
+- Include type declaration file in published files.
+
+### Fixed
+
+- Typo in readme
+
 ## [0.3.3] - 2018-08-10
 
 ### Fixed
 
-- Typo in type definition file path.
+- Typo in type declaration file path.
 
 ## [0.3.2] - 2018-08-10
 
 ### Added
 
-- Add module function type definition.
+- Add module function type declaration.
 
 ## [0.3.1] - 2018-07-25
 
@@ -78,6 +88,7 @@
 
 Hello world!
 
+[0.3.4]: https://github.com/jlmakes/tealight/compare/0.3.3...0.3.4
 [0.3.3]: https://github.com/jlmakes/tealight/compare/0.3.2...0.3.3
 [0.3.2]: https://github.com/jlmakes/tealight/compare/0.3.1...0.3.2
 [0.3.1]: https://github.com/jlmakes/tealight/compare/0.3.0...0.3.1
