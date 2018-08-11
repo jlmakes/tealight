@@ -7,7 +7,8 @@
   "module": "dist/tealight.es.js",
   "jsnext:main": "dist/tealight.es.js",
   "files": [
-    "dist"
+    "dist",
+    "src/index.d.ts"
   ],
   "scripts": {
     "prebuild": "rm -rf dist/*",
