@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.3.5] - 2018-08-11
+
+### Fixed
+
+- Update type declaration for optional second argument.
+
 ## [0.3.4] - 2018-08-10
 
 ### Changed
@@ -88,6 +94,7 @@
 
 Hello world!
 
+[0.3.5]: https://github.com/jlmakes/tealight/compare/0.3.4...0.3.5
 [0.3.4]: https://github.com/jlmakes/tealight/compare/0.3.3...0.3.4
 [0.3.3]: https://github.com/jlmakes/tealight/compare/0.3.2...0.3.3
 [0.3.2]: https://github.com/jlmakes/tealight/compare/0.3.1...0.3.2
