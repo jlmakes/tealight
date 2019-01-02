@@ -104,9 +104,9 @@ For the examples below, we will query against this HTML fragment:
 
 ```html
 <div id="jar">
-	<div class="chocolate-chip cookie"></div>
-	<div class="peanut-butter cookie"></div>
-	<div class="short-bread cookie"></div>
+  <div class="chocolate-chip cookie"></div>
+  <div class="peanut-butter cookie"></div>
+  <div class="short-bread cookie"></div>
 </div>
 ```
 
@@ -172,6 +172,6 @@ tealight(array);
 
 ---
 
-Copyright 2018 Fisssion LLC.
+Copyright 2019 Julian Lloyd
 <br>
 Open source under the [MIT License](https://github.com/jlmakes/tealight/blob/master/LICENSE).
