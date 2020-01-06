@@ -172,6 +172,6 @@ tealight(array);
 
 ---
 
-Copyright 2019 Julian Lloyd
+Copyright 2020 Julian Lloyd
 <br>
 Open source under the [MIT License](https://github.com/jlmakes/tealight/blob/master/LICENSE).

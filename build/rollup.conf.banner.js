@@ -4,7 +4,7 @@ export const condensed = `/*! @license Tealight v${version} (MIT) Copyright 2018
 
 export const standard = `/*! @license Tealight v${version}
 
-	Copyright 2018 Fisssion LLC.
+	Copyright 2020 Julian Lloyd.
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
