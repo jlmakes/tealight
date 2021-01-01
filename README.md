@@ -1,9 +1,9 @@
 <p align="center">
-	<img src="https://jlmak.es/logos/svg/tealight.svg" alt="Flaming tea light" width="120px">
+	<img src="https://jlmakes.com/logos/svg/tealight.svg" alt="Flaming tea light" width="120px">
 </p>
 <br>
 <p align="center">
-	<img src="https://jlmak.es/logos/svg/tealight-logotype.svg" alt="Tealight" width="130px">
+	<img src="https://jlmakes.com/logos/svg/tealight-logotype.svg" alt="Tealight" width="130px">
 </p>
 
 <p align="center">DOM queries that always return an array.</p>
