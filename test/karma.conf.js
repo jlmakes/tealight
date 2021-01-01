@@ -1,10 +1,10 @@
 const rollupPlugins = [
   require("rollup-plugin-json")(),
-  require("rollup-plugin-node-resolve")({ jsnext: true, main: true }),
-  require("rollup-plugin-buble")()
+  require("rollup-plugin-node-resolve")(),
+  require("rollup-plugin-buble")(),
 ];
 
-if (process.env.COVERAGE) {
+if (!process.env.TRAVIS || process.env.COVERAGE) {
   rollupPlugins.push(
     require("rollup-plugin-istanbul")({
       exclude: ["./**/*.spec.js", "**/node_modules/**"],
@@ -27,21 +27,22 @@ module.exports = karma => {
 
     rollupPreprocessor: {
       plugins: rollupPlugins,
-      format: "iife",
-      name: "tealight",
-      sourcemap: "inline"
+      output: {
+        format: "iife",
+        name: "tealight",
+        sourcemap: "inline"
+      }
     },
 
-    colors: true,
-    concurrency: 10,
-    logLevel: karma.LOG_ERROR,
     singleRun: true,
+    colors: true,
+    logLevel: karma.LOG_ERROR,
 
     browserDisconnectTolerance: 1,
     browserDisconnectTimeout: 60 * 1000,
     browserNoActivityTimeout: 60 * 1000,
     // browserNoActivityTimeout: 60 * 1000 * 10 * 6, // debugging
-    captureTimeout: 4 * 60 * 1000
+    captureTimeout: 80 * 1000
   });
 
   if (process.env.TRAVIS) {
